@@ -6,7 +6,9 @@ Autor	Francisco Giovanaz
 Plataforma	n8n + Google Gemini + integraciones externas
 Fecha	Septiembre de 2026
 Documento de arquitectura, implementación, guardrails y casos de prueba
- 
+
+Aclaracion: Se han subido 3 JSON. El Manager M4 general que es el Workflow Principal y los sub Workflows de Ventas y Soporte que acompañan al funcional general. 
+ 
 1. Descripción general
 Este proyecto implementa una arquitectura multi-agente en n8n orientada a procesar consultas recibidas por distintos canales, conservar contexto entre ejecuciones y coordinar acciones sobre servicios externos. La solución se organiza alrededor de un Manager principal que clasifica cada solicitud y deriva el trabajo hacia especialistas de Ventas o Soporte.
 Objetivo central
